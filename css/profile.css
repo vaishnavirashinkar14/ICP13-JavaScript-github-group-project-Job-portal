@@ -1,62 +1,120 @@
-body {
-  font-family: Arial;
-  background: #f4f6f8;
+* {
+  box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fb;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+
 .form-container {
-  width: 500px;
-  margin: 40px auto;
-  background: white;
-  padding: 20px;
+  width: 520px;
+  margin: auto;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+.form-container h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #2b2b2b;
 }
 
 label {
+  margin-top: 16px;
   display: block;
-  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
 }
 
 input, select {
   width: 100%;
-  padding: 8px;
-  margin-top: 5px;
+  padding: 13px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: 1px solid #dfe3eb;
+  background: #fafbff;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #5a7cff;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(90,124,255,0.2);
+  outline: none;
 }
 
 button {
-  margin-top: 20px;
-  padding: 10px;
-  background: #007bff;
-  color: white;
+  width: 100%;
+  margin-top: 28px;
+  padding: 14px;
+  border-radius: 12px;
   border: none;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
+  color: white;
+  background: linear-gradient(to right, #5a7cff, #6ea8ff);
+  transition: 0.3s;
 }
 
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(90,124,255,0.35);
+}
+
+
 .profile-card {
-  width: 600px;
-  margin: 40px auto;
-  background: white;
+  width: 620px;
+  margin: 60px auto 0;
+  background: #ffffff;
+  border-radius: 20px;
   text-align: center;
-  padding-bottom: 20px;
-  border-radius: 10px;
+  padding-bottom: 28px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
 }
 
 .cover {
-  height: 140px;
-  background: linear-gradient(to right,#4a6cf7,#5aa9fa);
+  height: 170px;
+  background: linear-gradient(135deg, #5a7cff, #6ea8ff);
+  border-radius: 20px 20px 0 0;
 }
 
 .avatar {
-  width: 120px;
-  height: 120px;
+  width: 135px;
+  height: 135px;
   border-radius: 50%;
-  margin-top: -60px;
-  border: 5px solid white;
+  margin-top: -68px;
+  border: 6px solid white;
+  background: white;
+}
+
+
+.profile-card h2 {
+  font-weight: 700;
+}
+
+.profile-card p {
+  font-weight: 600;
+  color: #555;
 }
 
 #skillsBox span {
-  background: #3e92b3;
-  color: white;
-  padding: 5px 10px;
-  margin: 5px;
-  display: inline-block;
-  border-radius: 5px;
+  font-weight: 600;
+}
+
+
+.profile-card strong,
+.profile-card span,
+.profile-card div {
+  font-weight: 600;
 }
