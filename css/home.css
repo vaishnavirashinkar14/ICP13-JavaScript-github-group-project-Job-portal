@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #f0f3f5;
+    background-color: #f0f2f5;
     color: #5f5f5f;
 }
 a{
@@ -72,8 +72,102 @@ a{
     flex-wrap: wrap;
     justify-content: space-between;
  }        
-
+           /* -----------left-side---------- */
  .ls-content{
     flex-basis: 25%;
     align-self: flex-start;
+ }
+ .profile-cover{
+    background-color: #fff;
+ }
+  .profile-cover img{
+    width: 100%;
+    height: 100px;
+  }
+ .profile-pic{
+    padding: 0 25px;
+ }
+ .profile-pic img{
+    width: 98px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 4px;
+    margin-top: -45px;
+ }
+ .profile-pic h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+ }
+.profile-pic h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+}
+.ls-activity{
+    background-color: #fff;
+}
+.ls-activity ul{
+    list-style: none;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+.ls-activity ul li{
+    width: 100%;
+    margin: 5px 0;
+    font-size: 13px;
+    color: #222;
+}
+.ls-activity ul li span{
+    float: right;
+    color: #045be6;
+}
+.recent-activities{
+    background-color: #fff;
+    padding: 5px 25px;
+    margin: 12px 0;
+}
+.recent-activities h3{
+    color: #494545;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.recent-activities a{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #605d5d;
+    margin: 3px 0;
+}
+.recent-activities a img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+             /*----------right-side----------- */
+ .rs-content{
+    flex-basis: 25%;
+    align-self: flex-start;
+ }
+.news{
+    background-color: #fff;
+    padding: 10px 25px;
+}
+.info-icon{
+    width: 15px;
+    float: right;
+    margin-top: 13px;
+}
+.news h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0 30px;
+}
+
+             /* ---------middel----------- */
+ .middel-content{
+    flex-basis: 47;
+    
  }
