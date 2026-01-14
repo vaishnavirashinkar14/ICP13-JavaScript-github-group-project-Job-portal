@@ -1,4 +1,4 @@
 function goHome() {
-    window.location.href = "index.html"; 
+    window.location.href = "joblist.html"; 
 }
 

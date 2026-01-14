@@ -47,3 +47,7 @@ form.addEventListener("submit", function (e) {
     internshipSection.style.display = "none";
     experienceSection.parentElement.style.display = "block";
 });
+
+function goToSuccess() {
+    window.location.href = "success.html";
+}
