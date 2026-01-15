@@ -322,6 +322,21 @@ a{
 .liked-user{
     margin-left: 10px;
 }
-.post-activit{
+.post-activity{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.post-activity div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.post-activity-reaction img{
+    width: 18px;
+    margin-right: 5px;
 }
