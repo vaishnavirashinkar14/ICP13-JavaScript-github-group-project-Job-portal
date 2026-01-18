@@ -250,3 +250,45 @@ body{
 
 }
 
+/* Mobile view */
+@media (max-width: 600px){
+
+  .cover{
+    height: 140px;
+  }
+
+  .avatar{
+    width: 110px;
+    height: 110px;
+    margin-top: -55px;
+    margin-left: 20px;
+  }
+
+  .profile-card h1,
+  .profile-card p{
+    margin-left: 20px;
+  }
+
+  .info-line{
+    margin: 8px 20px;
+    font-size: 14px;
+  }
+
+  .info-grid{
+    padding: 15px 20px;
+  }
+
+  .submit-btn{
+    width: 30%;
+  }
+
+  .logout-btn{
+    width: 30%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .form-box{
+    padding: 20px;
+  }
+}
