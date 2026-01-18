@@ -8,6 +8,66 @@ body {
     background: #f4f6f8;
 }
 
+
+
+body{
+    background-color: #f0f2f5;
+    color: #5f5f5f;
+}
+a{
+    text-decoration: none;
+    color: #5f5f5f;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 6px 6%;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 8px 10px  #0000001a;
+}
+
+.logo img{
+    width: 170px;
+    margin-right: 17px;
+    display: block;
+}
+.navbar-right ul li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar-right ul li a{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin: 5px 50px;
+    margin-right: 10px ;
+    padding-right: 5px;
+    position: relative;
+}
+.navbar-right ul li a img{
+    width: 17px;
+    margin-right: 7px;
+}
+
+.navbar-right ul li a::after
+{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #045be6;
+    position: absolute;
+    bottom: -25px;
+    transition: width 0.3s;
+}
+.navbar-right ul li a:hover::after,
+.navbar-right ul li a.running-page::after{
+    width: 100%;
+}
+
+
 .job-header {
     background: linear-gradient(125deg, #4f46e5, #0ea5e9);
     padding: 60px 20px;
